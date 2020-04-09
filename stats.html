@@ -31,20 +31,20 @@
     <div class="container">
       <a class="navbar-brand" href="stats.html"><img src="images/BlissIcon_Smal_wl.png" width="50" class="d-inline-block align-top" alt=""></a>
       <div class="row">
-        <div class="col-md-12"><a class="navbar-brand" href="stats.html"><b><b>BlissROMs Stats</b></b></a></div>
+        <div class="col-md-12" style="color: #ffffff;"><a class="navbar-brand" href="stats.html" style="color: #ffffff;" ><b><b>BlissROMs Stats</b></b></a></div>
       </div>
       <div class="row"></div>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
-        <ul class="navbar-nav">
+      <button class="navbar-toggler navbar-toggler-right" style="color: #ffffff;" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent" style="color: #ffffff;">
+        <ul class="navbar-nav" style="color: #ffffff;">
           <li class="nav-item mx-2">
-            <a class="nav-link" href="https://www.blissos.org"><b><b>Bliss OS</b></b></a>
+            <a class="nav-link" href="https://www.blissos.org" style="color: #ffffff;"><b><b>Bliss OS</b></b></a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="https://www.blissroms.com"><b><b>BlissROMs</b></b></a>
+            <a class="nav-link" href="https://www.blissroms.com" style="color: #ffffff;"><b><b>BlissROMs</b></b></a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="https://www.blissroms.com/bfor.html"><b><b>Non Profit</b></b></a>
+            <a class="nav-link" href="https://www.blissroms.com/bfor.html" style="color: #ffffff;"><b><b>Non Profit</b></b></a>
           </li>
         </ul>
       </div>
@@ -54,8 +54,8 @@
   <div class="section-fade-out pt-5 text-dark" style="background-image: url(&quot;https://i.imgur.com/W9WLZoD.jpg&quot;); background-position: center bottom;">
     <div class="container pt-5">
       <div class="row">
-        <div class="col-md-12 py-5 mx-auto text-center">
-          <h1 class="display-3 mb-4">BlissROMs Stats Site</h1>
+        <div class="col-md-12 py-5 mx-auto text-center" style="color: #ffffff;">
+          <h1 class="display-3 mb-4" style="color: #ffffff;">BlissROMs Stats Site</h1>
           <h1>Our Bliss Stats app collects a single device identifier when each device boots up for the first time.</h1>
           <h3>This sites purpose is to allow that data to be publicly viewable. </h3>
         </div>
@@ -74,7 +74,7 @@
   <!-- Features -->
   <!-- Carousel reviews -->
   <!-- Call to action -->
-  <div class="py-5 bg-light" id="team">
+  <div class="py-5 bg-dark section-fade-in" id="team">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-12 text-center">
@@ -98,7 +98,7 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <div class="form-group"><input type="text" class="form-control" id="search" placeholder="Search"></div>
+            <div class="form-group"><input type="text" class="form-control bg-dark text-light" id="search" placeholder="Search"></div>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
                     var newContent = ''; // Variable to hold HTML
                     for (var i = 0; i < data.length; i++) { // Loop through object
                       newContent += '<div class="grid-3">';
-                      newContent += '<span class="count2 text-dark" style="font-size: 4em !important; color: #0080ff;">' + data[i].installations + '</span>';
+                      newContent += '<span class="count2 text-light" style="font-size: 4em !important; color: #0080ff;">' + data[i].installations + '</span>';
                       newContent += '<p class="dev" style="color: #0080ff;">' + data[i].device + '</p>';
                       newContent += '</div>';
                     }
