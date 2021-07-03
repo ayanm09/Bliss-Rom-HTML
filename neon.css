@@ -7691,8 +7691,6 @@ button.bg-dark:focus {
   padding-top: 4.5rem !important;
 }
 
-.pt-6 {}
-
 @media (min-width: 576px) {
   .pt-6 {
     max-width: 540px;
@@ -7703,7 +7701,6 @@ button.bg-dark:focus {
   .pt-6 {
     max-width: 1140px;
   }
-}
 }
 
 .pr-5,
