@@ -19,6 +19,10 @@ input[type="radio"]:checked {
   transition: background .15s, box-shadow .1s;
 }
 
+.navbar-brand-image {
+  filter: invert(100%);
+}
+
 #wrap_a {
   max-width: 800px;
   margin: 0 auto;
